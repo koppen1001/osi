@@ -3,11 +3,10 @@ h1{
 }
 .title{
   color: orange;
-  font-size: 50px;
 }
 li{
   list-style: none;
 }
 body{
-  text-align: center;
+  text-align:  center;
 }
