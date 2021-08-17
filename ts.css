@@ -14,12 +14,12 @@ font-size: 25px;
 
 #gnav li{
   list-style-type: none;
-  display: flex;
   font-size:20px;
 }
 
 #gnav{
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .osi a{
