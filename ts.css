@@ -1,4 +1,4 @@
-h1{
+header{
   background-color: honeydew;
   color: orange;
   font-size: 50px;
@@ -8,6 +8,22 @@ body{
    text-align:center;
 }
 
-.artist{
-font-size: 20px;
+.osi .artist{
+font-size: 25px;
+}
+
+#gnav li{
+  list-style-type: none;
+  display: inline;
+  font-size:20px;
+  margin-right: 20px;
+}
+
+#gnav{
+  margin-bottom: 50px;
+}
+
+.osi a{
+  margin-right: 20px;
+  font-size: 20px;
 }
