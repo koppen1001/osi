@@ -61,10 +61,6 @@ nav li a{
   flex-flow: row;
 }
 
-.head{
-margin-bottom: 10px;
-}
-
 header h1{
   color: orange;
   font-size: 50px;
@@ -145,4 +141,5 @@ font-size: 25px;
 
 .osi{
   text-align: center;
+  margin: 0 auto;
 }
