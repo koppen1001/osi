@@ -92,12 +92,56 @@ font-size: 25px;
   text-align: center;
 }
 
-.osi a{
-  font-size: 16px;
-  margin-right: 10px;
+.osi img{
+  height: 250px;
+  width: 250px;
 }
 
-.osi img{
-  height: 400px;
-  width: 400px;
+.link{
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.link li{
+  margin-bottom: 10px;
+  float:left;
+}
+
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+
+.hidden_box label{
+  text-decoration: underline;
+}
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #efefef;
+    color:purple;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.osimem{
+  display: inline-flex;
 }
