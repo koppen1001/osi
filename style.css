@@ -69,6 +69,7 @@ header h1{
 
 .osi .artist{
 font-size: 25px;
+padding-left: 10px;
 }
 
 #gnav li{
@@ -91,6 +92,7 @@ font-size: 25px;
 
 .link{
   font-size: 18px;
+  padding-left: 20px;
   list-style-type: none;
 }
 
