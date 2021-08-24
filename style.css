@@ -55,26 +55,19 @@ nav li a{
 }
 
 .header{
-  display: flex;
   list-style: none;
+  background-color: honeydew;
+  display: flex;
+  flex-flow: row;
 }
 
 .head{
   margin: 38px 0 33px 0;
 }
 
-
-header{
-  background-color: honeydew;
-}
-
 header h1{
   color: orange;
   font-size: 50px;
-}
-
-body{
-   text-align:center;
 }
 
 .osi .artist{
@@ -95,6 +88,8 @@ font-size: 25px;
 .osi img{
   height: 250px;
   width: 250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .link{
@@ -104,7 +99,8 @@ font-size: 25px;
 
 .link li{
   margin-bottom: 10px;
-  float:left;
+  text-align: left;
+
 }
 
 .hidden_box {
@@ -144,4 +140,8 @@ font-size: 25px;
 
 .osimem{
   display: inline-flex;
+}
+
+.osi{
+  text-align: center;
 }
