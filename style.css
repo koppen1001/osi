@@ -90,12 +90,12 @@ font-size: 25px;
 }
 
 .link{
-  font-size: 20px;
+  font-size: 18px;
   list-style-type: none;
 }
 
 .link li{
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   text-align: left;
 }
 
