@@ -62,12 +62,13 @@ nav li a{
 }
 
 .head{
-  margin: 38px 0 33px 0;
+margin-bottom: 10px;
 }
 
 header h1{
   color: orange;
   font-size: 50px;
+  margin: auto auto;
 }
 
 .osi .artist{
