@@ -27,7 +27,7 @@
 }
 nav {
   z-index: 3;
-  width: 330px;
+  width: 200px;
   background: white;
   transition: 0.5s;
   transform: translateX(-100%);
@@ -36,6 +36,7 @@ nav {
 #humCheck:checked ~ nav {
   transform: translateX(0);
 }
+
 nav ul{
 overflow: hidden;
 list-style: none;
@@ -80,7 +81,7 @@ padding-left: 10px;
 
 #gnav{
   margin-bottom: 50px;
-  text-align: center;
+  margin-right: 100px;
 }
 
 .osi img{
